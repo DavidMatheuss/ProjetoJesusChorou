@@ -1,8 +1,27 @@
 @charset "UTF-8";
 
+
+@font-face {
+    font-family: 'Rap';
+    src: url('/godofwar/GODOFWAR.TTF');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Escrita';
+    src: url('/ananda_2/Ananda.ttf');
+}
+
 * {
     margin: 0px;
     padding: 0px;
+}
+ 
+
+
+:root{
+    --fonte-rap:'Rap';
+    --fonte-escrita:'Escrita';
 }
 
 a {
@@ -30,16 +49,20 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte-rap);
+    font-size: 5vw;
+    font-style: normal;
 }
 
 header > p {
     padding-bottom: 50px;
+    font-size: 2vw;
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    line-height: 3,5em;
     padding-left: 30px;
 }
 
@@ -58,6 +81,12 @@ section.imagem > p {
     width: 400px;
 }
 
+section > p {
+    font-family: var(--fonte-escrita);
+    font-style: none;
+    font-size: 2em;
+   
+}
 
 
 footer {
