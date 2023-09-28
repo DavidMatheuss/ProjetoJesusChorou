@@ -3,13 +3,13 @@
 
 @font-face {
     font-family: 'Rap';
-    src: url('/godofwar/GODOFWAR.TTF');
+    src: url('/Fontes/godofwar/GODOFWAR.TTF');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Escrita';
-    src: url('/ananda_2/Ananda.ttf');
+    src: url('/Fontes/ananda_2/Ananda.ttf');
 }
 
 * {
