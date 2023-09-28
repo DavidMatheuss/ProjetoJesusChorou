@@ -72,21 +72,51 @@ section.normal {
 }
 
 section.imagem {
-    background-color: grey;
-    color: white;
+    background-image: url('/imagens/42dbaee349e9358f948989b2dbb65c46.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.654); 
+    background-attachment: fixed;
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.558);
-    width: 400px;
+    
+    color:white;
+    padding:5px;
+    background-color: rgba(0, 0, 0, 0.364);
+    text-shadow: 2px 2px 0px black ;
+    display: inline-block;
+   
 }
+
+section.imagem02 {
+    background-image: url('/imagens/Jesus-weeping-for-his-church.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;  
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.623); 
+    background-attachment: fixed;
+}
+ 
+section.imagem02 > p {
+    color: white;
+    padding:5px;
+    background-color: rgba(0, 0, 0, 0.364);
+    text-shadow: 2px 2px 0px black ;
+    display: inline-block;
+}
+
+
 
 section > p {
     font-family: var(--fonte-escrita);
     font-style: none;
     font-size: 2em;
+    padding-bottom: 3em;
    
 }
+
+/*imagens */
+
 
 
 footer {
@@ -95,4 +125,8 @@ footer {
     color: white;
     padding: 10px;
 }
+
+
+
+
 
